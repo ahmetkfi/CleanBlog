@@ -142,6 +142,6 @@ dist
 .svelte-kit
 
 #Temp Dosyaları
-temp/
-tmp/
+public/
+views/
 # End of https://www.toptal.com/developers/gitignore/api/node
