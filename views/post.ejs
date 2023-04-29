@@ -31,11 +31,21 @@
           <p>
             <%= posts.detail %>
           </p>
+          <div class="text-center mt-5 mb-3">
+            <a  href="/posts/edit/<%=posts._id%>" class="btn btn-primary "><span>Edit
+                Post</span></a>
+          </div>
 
+          <div class="text-center">
+            <a href="/posts/<%=posts._id%>?_method=DELETE" class="btn btn-danger pl-4.9 pr-4.9 "
+              onclick="return confirm('Are you sure ?')"><span> Delete Post </span></a>
+          </div>
           
         </div>
       </div>
+    
     </div>
+
   </article>
 
   <hr>
